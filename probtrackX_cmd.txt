@@ -1,0 +1,1 @@
+probtrackx2 -s fsl.bedpostX/merged -m fsl.bedpostX/nodif_brain_mask -x ../ROI_001_L.nii.gz -V 0 --opd --pd -l --out=ROI_001_L_paths --dir=../probtrackx_out --forcedir -P 5000 -S 2000 --steplength=0.021 --distthresh=0.5 -c 0.75 --fibthresh=0.01 --randfib=2
