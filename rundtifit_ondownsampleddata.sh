@@ -1,0 +1,5 @@
+#!bin/bash/
+
+mkdir /Volumes/home/brain_data/ChrisLong/kspace_downsampled_resolution/chass_downsampled_4x/dtifit_12_4x
+cd /Volumes/home/brain_data/ChrisLong/kspace_downsampled_resolution/chass_downsampled_4x/dtifit_12_4x/
+dtifit -k /Volumes/home/brain_data/ChrisLong/kspace_downsampled_resolution/chass_downsampled_4x/bedpost_ESR12_4x/data.nii.gz -o /Volumes/home/brain_data/ChrisLong/kspace_downsampled_resolution/chass_downsampled_4x/dtifit_12_4x -m /Volumes/home/brain_data/ChrisLong/kspace_downsampled_resolution/chass_downsampled_4x/bedpost_ESR12_4x/nodif_brain_mask.nii.gz -r /Volumes/home/brain_data/ChrisLong/kspace_downsampled_resolution/chass_downsampled_4x/bedpost_ESR12_4x/bvecs -b /Volumes/home/brain_data/ChrisLong/kspace_downsampled_resolution/chass_downsampled_4x/bedpost_ESR12_4x/bvals 
